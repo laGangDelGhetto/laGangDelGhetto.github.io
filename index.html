@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="it">
     <head>
-        <title>La Gang del Getto - Home</title>
+        <title>La Gang del Getto</title>
         <meta charset="UTF-8">
         <meta name="author" content="metiu19">
         <meta name="description" content="Sito della Gang del Getto">
         <meta name="keywords" content="GdG, Gang del Getto, metiu19, Stoma_cake, Guardian, Muffin, Giuseee33">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
-    <body bgcolor="#07f844">
+    <body>
         <header>
-            <h1>La Gang del Getto</h1>
-            Inserire logo (WIP)
+            <!--
+            <img src="" alt="Imserire logo (WIP)">
+            -->
+            <h1 id="Titolo">La Gang del Getto</h1>
         </header>
         <nav>
             <a href="#Minecraft">Minecraft</a>
@@ -18,58 +21,66 @@
             <a href="#Commenti">Commenti</a>
             <a href="#Discord">Discord</a>
         </nav>
-        <br>
-        <hr>
-        <div id="Minecraft">
+        <br id="Minecraft">    
+        <div class="Minecraft">
             <h2>Minecraft</h2>
-            <h4>Ip server</h4>
-            <table>
-                <thead>
-                    <th>Nome</th>
-                    <th>Ip</th>
-                    <th>Descrizione</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Server GdG</td>
-                        <td>gdgserver.mcpro.io</td>
-                        <td>Vanilla, Minigames, UHC, Mappe</td>
-                    </tr>
-                    <tr>
-                        <td>Hypixel</td>
-                        <td>mc.hypixel.net</td>
-                        <td>Server per minigames</td>
-                    </tr>
-                    <tr>
-                        <td>CubeCraft</td>
-                        <td>play.cubecraft.net</td>
-                        <td>Server per minigames</td>
-                    </tr>
-                </tbody>
-            </table>
+            <section id="IpServer">
+                <h4>Ip server</h4>
+                <table class="TabMine">
+                    <thead>
+                        <th>Nome</th>
+                        <th>Ip</th>
+                        <th>Descrizione</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Server GdG</td>
+                            <td>gdgserver.mcpro.io</td>
+                            <td>Vanilla, Minigames, UHC, Mappe</td>
+                        </tr>
+                        <tr>
+                            <td>Hypixel</td>
+                            <td>mc.hypixel.net</td>
+                            <td>Server per minigames</td>
+                        </tr>
+                        <tr>
+                            <td>CubeCraft</td>
+                            <td>play.cubecraft.net</td>
+                            <td>Server per minigames</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="LinkMine">
+                <h4>Link siti utili</h4>
+                <br>
+                <a href="https://minecraft.tools/it/" target="_blank">Minecraft Tools</a></li>
+                <br>
+                <a href="http://www.minecraftmaps.com/" target="_blank">Minecraft Maps</a></li>
+            </section>
             <br>
-            <h4>Link siti utili</h4>
-            <ul>
-                <li><a href="https://minecraft.tools/it/" target="_blank">Minecraft Tools</a></li>
-                <li><a href="http://www.minecraftmaps.com/" target="_blank">Minecraft Maps</a></li>
-            </ul>
-            <br>
-            <h4>Link video Youtube</h4>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/qX2Tt9I5QoE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/LLBX3V1WrR8" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <section id="VideoMine">
+                <h4>Video Youtube</h4>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qX2Tt9I5QoE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/LLBX3V1WrR8" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
         </div>
-        <br>
+        <br id="LoL">
         <hr>
-        <div id="LoL">
+        <div class="LoL">
             <h2>Leagues of Legends</h2>
-            <h4>Link siti utili</h4>
-            <ul>
-                <li><a href="https://u.gg/" target="_blank">u.gg</a></li>
-            </ul>
+            <section id="LinkLoL">
+                <h4>Link siti utili</h4>
+                <a href="https://u.gg/" target="_blank">u.gg</a></li>
+            </section>
         </div>
-        <br>
+        <br id="Discord">
         <hr>
-        <div id="Commenti">
+        <div class="Discord">
+            <h2>Discord</h2>
+            <iframe src="https://ptb.discordapp.com/widget?id=350393633708441600&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+        </div>
+        <div id="Commenti" class="Commenti">
             <h2>Commenti/Suggerimeti (WIP)</h2>
             <form method="GET" >
                 <input type="text" name="Username" placeholder="Username">
@@ -83,13 +94,6 @@
             </form>
         </div>
         <br>
-        <hr>
-        <div id="Discord">
-            <h2>Discord</h2>
-            <iframe src="https://ptb.discordapp.com/widget?id=350393633708441600&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
-        </div>
-        <br>
-        <hr>
         <br>
         <footer>
            Footer (WIP)
