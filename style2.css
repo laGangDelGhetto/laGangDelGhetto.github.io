@@ -1,0 +1,55 @@
+body {
+    background-image: linear-gradient(red, orange, purple, blue, green, white);
+    margin: 0px;
+}
+header {
+    background-color: #383232;
+    color:  white;
+    padding: 15px;
+    padding-bottom: 5px;
+}
+#Titolo{
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+nav {
+    background-color: rgb(82, 82, 82);
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+}
+nav a{
+    color: white;
+}
+#IpServer, #LinkMine{
+    display: inline-table;
+}
+.TabMine td, .TabMine th{
+    border: 2px solid white;
+    background: rgba(0, 129, 250, 0.466);
+    border-collapse: collapse;
+    padding: 3px;
+    text-align: center;
+}
+.TabMine {
+    border-collapse: collapse;
+}
+#LinkMine {
+    margin-left: 50px;
+}
+#Minecraft iframe{
+    border: 5px solid rgb(0, 140, 255);
+}
+#LoL a{
+    color: yellow;
+}
+#Discord, #Commenti{
+    display: inline-table;
+}
+footer {
+    background-color: #ffee00;
+}
+#Copyright {
+    background-color: #ffee00;
+}
