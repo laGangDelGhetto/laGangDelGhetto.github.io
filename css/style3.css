@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+}
+/*body div{
+   border: 1px solid red;
+}
+body section {
+    border: 1px solid blue;
+}*/
+::selection {
+    background-color: green;
+    color: yellow;
+}
+/*Header*/
+header {
+    padding: 10px;
+    background-color: #383232;
+    color: white;
+}
+/*Navbar*/
+nav {
+    background-color: rgba(82, 82, 82,0.96);
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+}
+nav a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: rgb(161, 161, 161);
+    color: rgb(70, 70, 70);
+}
+/*Minecraft*/
+.Minecraft {
+    padding: 5px;
+    width: 74%;
+}
+/*Minecraft & LoL*/
+.Minecraft, .LoL {
+    display: inline-table;
+}
+/*LoL*/
+.LoL {
+    float: right;
+    width: 25%;
+}
+/*Discord*/
+.Discord {
+    float: right;
+    width: 25%;
+    position: relative;
+    bottom: 617px;
+}
+
+/*Footer & copyright*/
+footer, .Copyright {
+    bottom: 0px;
+}
