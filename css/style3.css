@@ -24,12 +24,12 @@ nav {
     position: sticky;
     top: 0px;
     text-align: center;
+    z-index: 2;
 }
 nav a {
     padding: 10px;
     color: white;
     text-decoration: none;
-    z-index: 2;
 }
 nav a:hover {
     background-color: rgb(161, 161, 161);
