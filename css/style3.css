@@ -1,16 +1,18 @@
 body {
     margin: 0px;
 }
-/*body div{
+/*
+body div{
    border: 1px solid red;
 }
 body section {
     border: 1px solid blue;
-}*/
+}
 ::selection {
     background-color: green;
     color: yellow;
 }
+*/
 /*Header*/
 header {
     padding: 10px;
